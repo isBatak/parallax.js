@@ -172,6 +172,12 @@ Note that when specifying these options as html data-attributes, you should conv
 			<td>false</td>
 			<td>(Experimental) If true, will freeze the parallax effect when "over scrolling" in browsers like Safari to prevent unexpected gaps caused by negative scroll positions.</td>
 		</tr>
+		<tr>
+			<td>callback</td>
+			<td>function</td>
+			<td>undefined</td>
+			<td></td>
+		</tr>
 	</tbody>
 </table>
 

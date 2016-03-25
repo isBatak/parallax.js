@@ -297,6 +297,11 @@
         .on('scroll.px.parallax load.px.parallax', function() {
           loadScrollPosition();
           Parallax.requestRender();
+        })
+        .on('load.px.parallax', function() {
+          $.each($self.sliders, function() {
+            this.callback();
+          });
         });
 
       loadDimensions();
